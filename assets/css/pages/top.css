@@ -1926,11 +1926,17 @@ main.topPage #sns .inner .content.reverse .grey {
   }
 }
 
+/*----Kode lama nampilin yt
 main.topPage #sns .youtube {
   padding-bottom: 200px;
   position: relative;
 }
+----------------------*/
 
+/*----Kode yan aktif-----*/
+main.topPage #sns .youtube {
+  display: none;
+}
 @media screen and (max-width: 950px) {
   main.topPage #sns .youtube {
     padding-bottom: 150px;
@@ -2025,9 +2031,16 @@ main.topPage #sns .youtube .inner .content .red .views iframe {
   height: 100%;
 }
 
+/*--- kode nampilin ig
 main.topPage #sns .instagram {
   margin-bottom: 200px;
   position: relative;
+}
+-------------------------*/
+
+/*- kode yang aktif-*/
+main.topPage #sns .instagram {
+  display: none;
 }
 
 @media screen and (max-width: 950px) {
