@@ -1183,12 +1183,13 @@
 }
 
 #main.akselerasi .program-kelas .inner .nav .nav-item {
-  margin-right: 20px;
+  margin-right: 5px;
+  color: #933132;
 }
 
 @media screen and (max-width: 767px) {
   #main.akselerasi .program-kelas .inner .nav .nav-item {
-    margin-right: 15px;
+    margin-right: 5px;
   }
 }
 
